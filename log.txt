@@ -1,0 +1,809 @@
+10-	5-	16-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	5-	16-	MySQLI Returned : 
+10-	5-	16-	Going to login
+10-	5-	16-	Going to start a new session
+10-	5-	16-	Cookies all set
+10-	5-	27-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	5-	27-	MySQLI Returned : 
+10-	5-	27-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	5-	27-	Going to execute : Select * from book WHERE book_id  = '24'
+10-	5-	27-	Going to execute : Select * from book WHERE book_id  = '31'
+10-	34-	27-	Going to execute: INSERT INTO `book_reader`.`book` ( `book_name`, `book_author`, `book_publish`, `category`, `front_page`) VALUES ('Test Book A', 'Test Author 4', '2003', 'Sci Fi', 'books_upload/31.jpg');
+10-	34-	35-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	34-	35-	MySQLI Returned : 
+10-	34-	35-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	34-	35-	Going to execute : Select * from book WHERE book_id  = '24'
+10-	34-	35-	Going to execute : Select * from book WHERE book_id  = '31'
+10-	34-	48-	Going to execute : Select * from book WHERE category = 'Fiction'
+10-	34-	48-	Going to execute : Select * from book WHERE category = 'Adventure'
+10-	34-	48-	Going to execute : Select * from book WHERE category = 'Mysticism'
+10-	34-	48-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+10-	35-	41-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book A"
+10-	35-	43-	INSERT INTO user_books(user_id,book_id ) VALUES ('8','33')
+10-	35-	43-	Rows affected :1
+10-	35-	52-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	35-	52-	MySQLI Returned : 
+10-	35-	52-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	35-	52-	Going to execute : Select * from book WHERE book_id  = '24'
+10-	35-	52-	Going to execute : Select * from book WHERE book_id  = '31'
+10-	35-	52-	Going to execute : Select * from book WHERE book_id  = '33'
+10-	50-	20-	Going to execute: INSERT INTO `book_reader`.`book` ( `book_name`, `book_author`, `book_publish`, `category`, `front_page`) VALUES ('Great Giant Book of Magic', 'Test Author 1', '2002', 'Magic', 'books_upload/file (2).jpeg');
+10-	52-	0-	Going to execute: INSERT INTO `book_reader`.`book` ( `book_name`, `book_author`, `book_publish`, `category`, `front_page`) VALUES ('Great Giant Book of Magic', 'Test Author 1', '2002', 'Magic', 'books_upload/file (2).jpeg');
+10-	52-	36-	Going to execute: INSERT INTO `book_reader`.`book` ( `book_name`, `book_author`, `book_publish`, `category`, `front_page`) VALUES ('Great Giant Book of Magic', 'Test Author 1', '2002', 'Magic', 'books_upload/file (2).jpeg');
+10-	54-	15-	Going to execute: INSERT INTO `book_reader`.`book` ( `book_name`, `book_author`, `book_publish`, `category`, `front_page`) VALUES ('Great Giant Book of Magic', 'Test Author 1', '2002', 'Magic', 'books_upload/file (2).jpeg');
+10-	54-	23-	Going to execute: INSERT INTO `book_reader`.`book` ( `book_name`, `book_author`, `book_publish`, `category`, `front_page`) VALUES ('Great Giant Book of Magic', 'Test Author 1', '2002', 'Magic', 'books_upload/file (2).jpeg');
+10-	55-	17-	Going to execute: INSERT INTO `book_reader`.`book` ( `book_name`, `book_author`, `book_publish`, `category`, `front_page`) VALUES ('Great Giant Book of Magic', 'Test Author 1', '2002', 'Magic', 'books_upload/file (2).jpeg');
+10-	14-	46-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	14-	46-	MySQLI Returned : 
+10-	14-	46-	Going to login
+10-	14-	46-	Going to start a new session
+10-	14-	46-	Cookies all set
+10-	17-	39-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	17-	39-	MySQLI Returned : 
+10-	17-	39-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	17-	39-	Going to execute : Select * from book WHERE book_id  = '24'
+10-	17-	39-	Going to execute : Select * from book WHERE book_id  = '31'
+10-	17-	39-	Going to execute : Select * from book WHERE book_id  = '33'
+10-	17-	45-	Destroyed all cookies
+10-	17-	50-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	17-	50-	MySQLI Returned : 
+10-	17-	50-	Going to login
+10-	17-	50-	Going to start a new session
+10-	17-	50-	Cookies all set
+10-	17-	50-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	17-	50-	MySQLI Returned : 
+10-	17-	50-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	17-	50-	Going to execute : Select * from book WHERE book_id  = '24'
+10-	17-	50-	Going to execute : Select * from book WHERE book_id  = '31'
+10-	17-	50-	Going to execute : Select * from book WHERE book_id  = '33'
+10-	17-	57-	Going to execute : Select * from book WHERE category = 'Fiction'
+10-	17-	57-	Going to execute : Select * from book WHERE category = 'Adventure'
+10-	17-	57-	Going to execute : Select * from book WHERE category = 'Mysticism'
+10-	17-	57-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+10-	17-	57-	Going to execute : Select * from book WHERE category = 'Magic'
+10-	18-	2-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book 3"
+4-	45-	39-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+4-	45-	39-	MySQLI Returned : 
+4-	45-	39-	Going to login
+4-	45-	39-	Going to start a new session
+4-	45-	39-	Cookies all set
+4-	45-	39-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+4-	45-	40-	MySQLI Returned : 
+4-	45-	40-	Going to execute : Select * from book WHERE book_id  = '22'
+4-	45-	40-	Going to execute : Select * from book WHERE book_id  = '24'
+4-	45-	40-	Going to execute : Select * from book WHERE book_id  = '31'
+4-	45-	40-	Going to execute : Select * from book WHERE book_id  = '33'
+4-	45-	50-	Going to execute : Select * from book WHERE category = 'Fiction'
+4-	45-	50-	Going to execute : Select * from book WHERE category = 'Adventure'
+4-	45-	50-	Going to execute : Select * from book WHERE category = 'Mysticism'
+4-	45-	50-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+4-	45-	50-	Going to execute : Select * from book WHERE category = 'Magic'
+4-	45-	53-	Going to execute : SELECT * FROM book WHERE book_name = "My Book 4"
+4-	45-	56-	INSERT INTO user_books(user_id,book_id ) VALUES ('8','29')
+4-	45-	56-	Rows affected :1
+4-	48-	33-	Going to execute : Select * from book WHERE category = 'Fiction'
+4-	48-	33-	Going to execute : Select * from book WHERE category = 'Adventure'
+4-	48-	33-	Going to execute : Select * from book WHERE category = 'Mysticism'
+4-	48-	33-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+4-	48-	33-	Going to execute : Select * from book WHERE category = 'Magic'
+4-	48-	35-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book 3"
+4-	48-	39-	INSERT INTO user_books(user_id,book_id ) VALUES ('8','23')
+4-	48-	39-	Rows affected :1
+4-	48-	42-	Going to execute : Select * from book WHERE category = 'Fiction'
+4-	48-	43-	Going to execute : Select * from book WHERE category = 'Adventure'
+4-	48-	43-	Going to execute : Select * from book WHERE category = 'Mysticism'
+4-	48-	43-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+4-	48-	43-	Going to execute : Select * from book WHERE category = 'Magic'
+4-	49-	18-	Going to execute : Select * from book WHERE category = 'Fiction'
+4-	49-	18-	Going to execute : Select * from book WHERE category = 'Adventure'
+4-	49-	18-	Going to execute : Select * from book WHERE category = 'Mysticism'
+4-	49-	18-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+4-	49-	18-	Going to execute : Select * from book WHERE category = 'Magic'
+4-	49-	50-	Going to execute : Select * from book WHERE category = 'Fiction'
+4-	49-	50-	Going to execute : Select * from book WHERE category = 'Adventure'
+4-	49-	50-	Going to execute : Select * from book WHERE category = 'Mysticism'
+4-	49-	50-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+4-	49-	51-	Going to execute : Select * from book WHERE category = 'Magic'
+4-	49-	52-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+4-	49-	52-	MySQLI Returned : 
+4-	49-	52-	Going to execute : Select * from book WHERE book_id  = '22'
+4-	49-	52-	Going to execute : Select * from book WHERE book_id  = '23'
+4-	49-	52-	Going to execute : Select * from book WHERE book_id  = '24'
+4-	49-	53-	Going to execute : Select * from book WHERE book_id  = '29'
+4-	49-	53-	Going to execute : Select * from book WHERE book_id  = '31'
+4-	49-	53-	Going to execute : Select * from book WHERE book_id  = '33'
+5-	11-	44-	Going to execute : INSERT INTO `book_reader`.`users` ( `name`, `email`, `password`, `file`) VALUES ( 'Test9', 'Test9@test.com', 'Tested9', 'uploads/IMG_20160122_144706.jpg');
+5-	11-	44-	1 Rows Affected
+5-	13-	38-	Going to execute : INSERT INTO `book_reader`.`users` ( `name`, `email`, `password`, `file`) VALUES ( 'Test9', 'Test9@test.com', 'Tested9', 'uploads/IMG_20160122_144706.jpg');
+5-	13-	38-	-1 Rows Affected
+5-	13-	40-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+5-	13-	40-	MySQLI Returned : 
+5-	13-	40-	Going to execute : Select * from book WHERE book_id  = '22'
+5-	13-	40-	Going to execute : Select * from book WHERE book_id  = '23'
+5-	13-	40-	Going to execute : Select * from book WHERE book_id  = '24'
+5-	13-	40-	Going to execute : Select * from book WHERE book_id  = '29'
+5-	13-	40-	Going to execute : Select * from book WHERE book_id  = '31'
+5-	13-	40-	Going to execute : Select * from book WHERE book_id  = '33'
+5-	14-	38-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+5-	14-	38-	MySQLI Returned : 
+5-	14-	38-	Going to execute : Select * from book WHERE book_id  = '22'
+5-	14-	38-	Going to execute : Select * from book WHERE book_id  = '23'
+5-	14-	38-	Going to execute : Select * from book WHERE book_id  = '24'
+5-	14-	38-	Going to execute : Select * from book WHERE book_id  = '29'
+5-	14-	39-	Going to execute : Select * from book WHERE book_id  = '31'
+5-	14-	39-	Going to execute : Select * from book WHERE book_id  = '33'
+5-	16-	40-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+5-	16-	40-	MySQLI Returned : 
+5-	16-	40-	Going to execute : Select * from book WHERE book_id  = '22'
+5-	16-	40-	Going to execute : Select * from book WHERE book_id  = '23'
+5-	16-	41-	Going to execute : Select * from book WHERE book_id  = '24'
+5-	16-	41-	Going to execute : Select * from book WHERE book_id  = '29'
+5-	16-	41-	Going to execute : Select * from book WHERE book_id  = '31'
+5-	16-	41-	Going to execute : Select * from book WHERE book_id  = '33'
+7-	57-	24-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+7-	57-	24-	MySQLI Returned : 
+7-	57-	24-	Going to login
+7-	57-	24-	Going to start a new session
+7-	57-	25-	Cookies all set
+7-	57-	25-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+7-	57-	25-	MySQLI Returned : 
+7-	57-	25-	Going to execute : Select * from book WHERE book_id  = '22'
+7-	57-	25-	Going to execute : Select * from book WHERE book_id  = '23'
+7-	57-	25-	Going to execute : Select * from book WHERE book_id  = '24'
+7-	57-	25-	Going to execute : Select * from book WHERE book_id  = '29'
+7-	57-	25-	Going to execute : Select * from book WHERE book_id  = '31'
+7-	57-	25-	Going to execute : Select * from book WHERE book_id  = '33'
+7-	57-	34-	Going to execute : Select * from book WHERE category = 'Fiction'
+7-	57-	34-	Going to execute : Select * from book WHERE category = 'Adventure'
+7-	57-	34-	Going to execute : Select * from book WHERE category = 'Mysticism'
+7-	57-	34-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+7-	57-	34-	Going to execute : Select * from book WHERE category = 'Magic'
+7-	57-	38-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+7-	57-	55-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+7-	58-	37-	INSERT INTO user_books(user_id,book_id ,status) VALUES ('8','22 ','')
+7-	58-	37-	Rows affected :-1
+8-	0-	13-	Values Received : 22 
+8-	0-	14-	INSERT INTO user_books(user_id,book_id ,status) VALUES ('8','22 ','')
+8-	0-	14-	Rows affected :-1
+8-	1-	14-	Values Received : 22 
+8-	1-	14-	INSERT INTO user_books(user_id,book_id ,status) VALUES ('8','22 ','')
+8-	1-	15-	Rows affected :-1
+8-	3-	15-	Values Received : 22 
+8-	3-	15-	INSERT INTO user_books(user_id,book_id ,status) VALUES ('8','22 ','')
+8-	3-	15-	Rows affected :-1
+8-	3-	19-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+8-	3-	22-	Values Received : S22 
+8-	3-	22-	INSERT INTO user_books(user_id,book_id ,status) VALUES ('8','22 ','S')
+8-	3-	22-	Rows affected :-1
+10-	13-	25-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	13-	25-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+10-	14-	8-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	14-	8-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+10-	15-	4-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	15-	4-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+10-	27-	5-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	27-	5-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+10-	27-	6-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	27-	6-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+10-	30-	56-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	30-	56-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+10-	31-	2-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	31-	2-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+10-	36-	0-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+10-	36-	0-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	6-	40-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	6-	40-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	6-	46-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	6-	47-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	12-	23-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	12-	23-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	12-	32-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	12-	32-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	16-	8-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	16-	8-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	16-	14-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	16-	14-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	16-	24-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	16-	24-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	32-	38-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	32-	38-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	32-	39-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	32-	39-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	38-	4-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	40-	24-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	40-	24-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	40-	55-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	40-	55-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	40-	56-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	40-	56-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	48-	14-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	48-	14-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	48-	14-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	48-	15-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	48-	38-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	48-	38-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	51-	24-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	51-	24-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	51-	25-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	51-	25-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	52-	1-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	52-	1-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	52-	46-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	52-	46-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	53-	2-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	53-	2-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22"
+11-	54-	29-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	54-	29-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+11-	54-	30-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	54-	31-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+11-	56-	49-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	56-	49-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+11-	57-	26-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	57-	26-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+11-	57-	26-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	57-	26-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+11-	59-	14-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	59-	14-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+11-	59-	15-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+11-	59-	15-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	0-	46-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	0-	46-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	0-	47-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	0-	47-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	1-	26-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	1-	26-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	1-	27-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	1-	27-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	2-	28-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	2-	28-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	3-	58-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	3-	58-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	3-	59-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	3-	59-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	7-	6-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	7-	6-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	7-	9-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	7-	10-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	8-	41-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	8-	41-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	10-	4-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	10-	4-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	10-	5-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	10-	5-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	11-	10-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	11-	10-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	12-	19-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	12-	19-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	13-	26-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	13-	27-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	15-	23-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	15-	24-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	15-	25-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	15-	25-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	17-	10-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	17-	10-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	17-	11-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	17-	11-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	18-	48-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	18-	49-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	18-	50-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	18-	50-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	19-	23-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	19-	23-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	19-	23-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4and comment != null
+12-	19-	23-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6and comment != null
+12-	19-	23-	Going to execute from bookdisplay : Select * FROM users WHERE id = 8and comment != null
+12-	19-	37-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	19-	37-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	19-	37-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4 and comment != null
+12-	19-	37-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6 and comment != null
+12-	19-	37-	Going to execute from bookdisplay : Select * FROM users WHERE id = 8 and comment != null
+12-	19-	58-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	19-	58-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	19-	58-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4 and comment != NULL
+12-	19-	58-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6 and comment != NULL
+12-	19-	58-	Going to execute from bookdisplay : Select * FROM users WHERE id = 8 and comment != NULL
+12-	19-	59-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	19-	59-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	19-	59-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4 and comment != NULL
+12-	19-	59-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6 and comment != NULL
+12-	19-	59-	Going to execute from bookdisplay : Select * FROM users WHERE id = 8 and comment != NULL
+12-	20-	54-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	20-	54-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	20-	54-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4 and comment != NULL
+12-	20-	54-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6 and comment != NULL
+12-	20-	54-	Going to execute from bookdisplay : Select * FROM users WHERE id = 8 and comment != NULL
+12-	21-	52-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	21-	52-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	21-	53-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	21-	53-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	29-	25-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	29-	25-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	29-	26-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	29-	26-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	30-	2-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	30-	2-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	30-	2-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22and comment != 'NULL'
+12-	30-	20-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+12-	30-	20-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+12-	30-	21-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+12-	30-	21-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+12-	30-	21-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	29-	32-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+9-	29-	33-	MySQLI Returned : 
+9-	29-	33-	Going to execute : Select * from book WHERE book_id  = '22'
+9-	29-	33-	Going to execute : Select * from book WHERE book_id  = '23'
+9-	29-	33-	Going to execute : Select * from book WHERE book_id  = '24'
+9-	29-	33-	Going to execute : Select * from book WHERE book_id  = '29'
+9-	29-	33-	Going to execute : Select * from book WHERE book_id  = '31'
+9-	29-	33-	Going to execute : Select * from book WHERE book_id  = '33'
+9-	29-	53-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	29-	53-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	29-	53-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	29-	53-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	29-	53-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	37-	59-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	37-	59-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	37-	59-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	37-	59-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	37-	59-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	38-	17-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	38-	17-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	38-	17-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	38-	17-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	38-	17-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	38-	17-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	38-	18-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	38-	18-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	38-	18-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	38-	18-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	38-	54-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	38-	54-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	38-	54-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	38-	54-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	38-	54-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	38-	55-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	38-	55-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	38-	55-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	38-	55-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	38-	55-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	39-	2-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	39-	2-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	39-	2-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	39-	2-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	39-	2-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	39-	7-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	39-	7-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	39-	7-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	39-	7-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	39-	7-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	41-	4-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	41-	4-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	41-	4-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	41-	4-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	41-	4-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	41-	4-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	41-	4-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	41-	4-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	41-	4-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	41-	4-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	41-	15-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	41-	15-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	41-	15-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	41-	15-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	41-	15-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	41-	19-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book 3"
+9-	41-	19-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "23" 
+9-	41-	19-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 23 and comment != 'NULL'
+9-	41-	32-	Going to execute : Select * from book WHERE category = 'Fiction'
+9-	41-	32-	Going to execute : Select * from book WHERE category = 'Adventure'
+9-	41-	32-	Going to execute : Select * from book WHERE category = 'Mysticism'
+9-	41-	32-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+9-	41-	32-	Going to execute : Select * from book WHERE category = 'Magic'
+9-	41-	35-	Going to execute : SELECT * FROM book WHERE book_name = "Great Red Red Book"
+9-	41-	36-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "31" 
+9-	41-	36-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 31 and comment != 'NULL'
+9-	41-	40-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book 4"
+9-	41-	41-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "24" 
+9-	41-	41-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 24 and comment != 'NULL'
+9-	41-	45-	Going to execute : SELECT * FROM book WHERE book_name = "Great Green Book"
+9-	41-	45-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "30" 
+9-	41-	45-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 30 and comment != 'NULL'
+9-	42-	32-	Going to execute : Select * from book WHERE category = 'Fiction'
+9-	42-	32-	Going to execute : Select * from book WHERE category = 'Adventure'
+9-	42-	32-	Going to execute : Select * from book WHERE category = 'Mysticism'
+9-	42-	32-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+9-	42-	32-	Going to execute : Select * from book WHERE category = 'Magic'
+9-	42-	35-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+9-	42-	35-	MySQLI Returned : 
+9-	42-	35-	Going to execute : Select * from book WHERE book_id  = '22'
+9-	42-	35-	Going to execute : Select * from book WHERE book_id  = '23'
+9-	42-	35-	Going to execute : Select * from book WHERE book_id  = '24'
+9-	42-	35-	Going to execute : Select * from book WHERE book_id  = '29'
+9-	42-	35-	Going to execute : Select * from book WHERE book_id  = '31'
+9-	42-	35-	Going to execute : Select * from book WHERE book_id  = '33'
+9-	42-	38-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book 3"
+9-	42-	38-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "23" 
+9-	42-	38-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 23 and comment != 'NULL'
+9-	42-	44-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	42-	44-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	42-	44-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	42-	44-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	42-	44-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	42-	46-	Going to execute : SELECT * FROM book WHERE book_name = "Witch Craft"
+9-	42-	46-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "22" 
+9-	42-	46-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 22 and comment != 'NULL'
+9-	42-	46-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+9-	42-	46-	Going to execute from bookdisplay : Select * FROM users WHERE id = 6
+9-	46-	23-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	46-	24-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	47-	1-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	47-	28-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	47-	47-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	48-	17-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	50-	57-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	51-	14-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	52-	38-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	56-	31-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	59-	25-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+9-	59-	30-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	0-	19-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	1-	29-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	1-	29-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	1-	29-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	1-	50-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	1-	51-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	1-	51-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	2-	27-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	2-	27-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	2-	28-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	2-	28-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	2-	28-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	2-	28-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	2-	42-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	2-	42-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	2-	42-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	2-	46-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book 5"
+10-	2-	46-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "25" 
+10-	2-	46-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 25 and comment != 'NULL'
+10-	2-	46-	Going to execute from bookdisplay : Select * FROM users WHERE id = 4
+10-	4-	31-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	4-	31-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	4-	31-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	4-	32-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	4-	32-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	4-	32-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	4-	49-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	4-	49-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	4-	49-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	6-	36-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	6-	36-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	6-	36-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	8-	30-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	8-	30-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 4 and status != "NULL"
+10-	8-	30-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	8-	30-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	9-	20-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	9-	20-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 4 and status != NULL
+10-	9-	20-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	9-	20-	Going to execute : Select * from book WHERE book_id  = '25'
+10-	11-	20-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	11-	20-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 4 and status != NULL
+10-	12-	3-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	12-	3-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 4 and status != NULL
+10-	12-	12-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 4
+10-	12-	12-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 4 and status != NULL
+10-	12-	14-	Going to execute: SELECT * FROM users WHERE email = 'test7@test.com'
+10-	12-	14-	MySQLI Returned : 
+10-	12-	14-	Going to execute : Select * from book WHERE book_id  = '22'
+10-	12-	14-	Going to execute : Select * from book WHERE book_id  = '23'
+10-	12-	14-	Going to execute : Select * from book WHERE book_id  = '24'
+10-	12-	14-	Going to execute : Select * from book WHERE book_id  = '29'
+10-	12-	14-	Going to execute : Select * from book WHERE book_id  = '31'
+10-	12-	14-	Going to execute : Select * from book WHERE book_id  = '33'
+10-	12-	19-	Destroyed all cookies
+10-	14-	18-	Going to execute : INSERT INTO `book_reader`.`users` ( `name`, `email`, `password`, `file`) VALUES ( '', '', '', 'uploads/');
+10-	14-	18-	1 Rows Affected
+10-	15-	55-	Going to execute : INSERT INTO `book_reader`.`users` ( `name`, `email`, `password`, `file`) VALUES ( 'Naveed Zahoor', 'naveed@test.com', 'naveealikhan', 'uploads/10352396_1966308820260094_2410889236860521554_n.jpg');
+10-	15-	56-	1 Rows Affected
+10-	16-	20-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	16-	20-	MySQLI Returned : 
+10-	16-	20-	Going to login
+10-	16-	21-	Going to start a new session
+10-	16-	21-	Cookies all set
+10-	16-	21-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	16-	21-	MySQLI Returned : 
+10-	19-	37-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	19-	38-	MySQLI Returned : 
+10-	19-	38-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	19-	38-	MySQLI Returned : 
+10-	21-	5-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	21-	5-	MySQLI Returned : 
+10-	21-	6-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	21-	6-	MySQLI Returned : 
+10-	21-	12-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	21-	13-	MySQLI Returned : 
+10-	22-	54-	Going to execute : Select * from book WHERE category = 'Fiction'
+10-	22-	54-	Going to execute : Select * from book WHERE category = 'Adventure'
+10-	22-	54-	Going to execute : Select * from book WHERE category = 'Mysticism'
+10-	22-	54-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+10-	22-	54-	Going to execute : Select * from book WHERE category = 'Magic'
+10-	22-	59-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	22-	59-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	22-	59-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	23-	1-	Values Received : Still Reading34 
+10-	23-	1-	INSERT INTO user_books(user_id,book_id ,status) VALUES ('10','34 ','Still Reading')
+10-	23-	2-	Rows affected :1
+10-	23-	6-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+10-	23-	6-	MySQLI Returned : 
+10-	23-	6-	Going to execute : Select * from book WHERE book_id  = '34'
+10-	23-	11-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	23-	11-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	23-	11-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	33-	28-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	33-	29-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	33-	29-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	36-	26-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	36-	26-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	36-	26-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	36-	42-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	36-	42-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	36-	42-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	36-	43-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	36-	43-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	36-	43-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	36-	53-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	36-	53-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	36-	53-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	37-	2-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	37-	2-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	37-	2-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	37-	12-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	37-	12-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	37-	12-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	37-	23-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	37-	23-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	37-	23-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	48-	46-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	48-	46-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	48-	46-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	48-	54-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	48-	55-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	48-	55-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	49-	9-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	49-	9-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	49-	9-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	49-	56-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	49-	56-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	49-	57-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+10-	50-	57-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+10-	50-	57-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+10-	50-	57-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	10-	34-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	10-	34-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	10-	34-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	10-	51-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	10-	51-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	10-	51-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	12-	23-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	12-	23-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	12-	23-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	17-	40-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	17-	40-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	17-	40-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	33-	57-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	33-	58-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	33-	58-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	33-	58-	from bookdisplay INSERT INTO user_books (user_id , book_id , comment ) VALUES (,10,nice book)
+11-	33-	58-	Rows Effected : -1
+11-	34-	4-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	34-	5-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	34-	5-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	34-	5-	from bookdisplay INSERT INTO user_books (user_id , book_id , comment ) VALUES (,10,nice book)
+11-	34-	5-	Rows Effected : -1
+11-	36-	35-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	36-	35-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	36-	35-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	36-	35-	from bookdisplay INSERT INTO user_books (user_id , book_id , comment ) VALUES (10,34,nice book)
+11-	36-	35-	Rows Effected : -1
+11-	37-	8-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	37-	8-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	37-	8-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	37-	8-	from bookdisplay INSERT INTO user_books (user_id , book_id , comment ) VALUES (10,34,Nice book)
+11-	37-	9-	Rows Effected : -1
+11-	38-	33-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	38-	33-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	38-	33-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	38-	33-	from bookdisplay INSERT INTO user_books (user_id , book_id , comment ) VALUES (10,34,Nice book)
+11-	38-	33-	Rows Effected : -1
+11-	38-	33-	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book)' at line 1
+11-	40-	55-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	40-	55-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	40-	55-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	40-	55-	from bookdisplay INSERT INTO user_books (user_id , book_id , comment ) VALUES ('10','34','Nice book')
+11-	40-	55-	Rows Effected : -1
+11-	40-	55-	Duplicate entry '10-34' for key 'PRIMARY'
+11-	46-	15-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	46-	15-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	46-	15-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	46-	15-	from bookdisplay UPDATE user_books SET comment = where book_id = 34and user_id = 10
+11-	46-	15-	Rows Effected : -1
+11-	46-	15-	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where book_id = 34and user_id = 10' at line 1
+11-	46-	39-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	46-	39-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	46-	39-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	46-	39-	from bookdisplay UPDATE user_books SET comment = where book_id = 34and user_id = 10
+11-	46-	39-	Rows Effected : -1
+11-	46-	39-	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where book_id = 34and user_id = 10' at line 1
+11-	47-	2-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	47-	2-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	47-	2-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	47-	2-	from bookdisplay UPDATE user_books SET comment = Nice bookwhere book_id = 34and user_id = 10
+11-	47-	2-	Rows Effected : -1
+11-	47-	2-	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'bookwhere book_id = 34and user_id = 10' at line 1
+11-	47-	30-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	47-	31-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	47-	31-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	47-	31-	from bookdisplay UPDATE user_books SET comment = Nice book where book_id = 34and user_id = 10
+11-	47-	31-	Rows Effected : -1
+11-	47-	31-	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book where book_id = 34and user_id = 10' at line 1
+11-	48-	0-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	48-	0-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	48-	0-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	48-	0-	from bookdisplay UPDATE user_books SET comment = 'Nice book' where book_id = 34and user_id = 10
+11-	48-	0-	Rows Effected : -1
+11-	48-	0-	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id = 10' at line 1
+11-	48-	15-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	48-	15-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	48-	16-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	48-	16-	from bookdisplay UPDATE user_books SET comment = 'Nice book' where book_id = 34 and user_id = 10
+11-	48-	16-	Rows Effected : 1
+11-	48-	16-	
+11-	48-	50-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	48-	51-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	48-	51-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	48-	51-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	48-	51-	from bookdisplay UPDATE user_books SET comment = 'Nice book' where book_id = 34 and user_id = 10
+11-	48-	51-	Rows Effected : 0
+11-	48-	51-	
+11-	49-	2-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 10
+11-	49-	2-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 10 and status != NULL
+11-	49-	36-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+11-	49-	36-	MySQLI Returned : 
+11-	49-	36-	Going to execute : Select * from book WHERE book_id  = '34'
+11-	49-	40-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 10
+11-	49-	40-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 10 and status != NULL
+11-	52-	29-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 10
+11-	52-	29-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 10 and status != NULL
+11-	52-	29-	Going to execute : Select * from book WHERE book_id  = '31'
+11-	52-	29-	Going to execute : Select * from book WHERE book_id  = '33'
+11-	52-	29-	Going to execute : Select * from book WHERE book_id  = '34'
+11-	52-	39-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	52-	39-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	52-	39-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	52-	39-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	52-	52-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	52-	52-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	52-	52-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	52-	53-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	52-	53-	from bookdisplay UPDATE user_books SET comment = 'Good Good Book' where book_id = 34 and user_id = 10
+11-	52-	53-	Rows Effected : 1
+11-	52-	53-	
+11-	52-	55-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	52-	55-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	52-	55-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	52-	55-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	52-	55-	from bookdisplay UPDATE user_books SET comment = '' where book_id = 34 and user_id = 10
+11-	52-	56-	Rows Effected : 1
+11-	52-	56-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	52-	56-	
+11-	52-	56-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	52-	56-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	52-	56-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	53-	0-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	53-	0-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	53-	0-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	53-	0-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	53-	1-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	53-	2-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	53-	2-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	53-	2-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	53-	12-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	53-	12-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	53-	12-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	53-	12-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	53-	12-	from bookdisplay UPDATE user_books SET comment = 'Good Good Book' where book_id = 34 and user_id = 10
+11-	53-	13-	Rows Effected : 1
+11-	53-	13-	
+11-	53-	38-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+11-	53-	38-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+11-	53-	38-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+11-	53-	38-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+11-	53-	38-	from bookdisplay UPDATE user_books SET comment = 'Good Good Book' where book_id = 34 and user_id = 10
+11-	53-	39-	Rows Effected : 0
+11-	53-	39-	
+11-	54-	9-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 10
+11-	54-	9-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 10 and status != NULL
+11-	54-	9-	Going to execute : Select * from book WHERE book_id  = '31'
+11-	54-	9-	Going to execute : Select * from book WHERE book_id  = '33'
+11-	54-	9-	Going to execute : Select * from book WHERE book_id  = '34'
+11-	54-	14-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+11-	54-	14-	MySQLI Returned : 
+11-	54-	14-	Going to execute : Select * from book WHERE book_id  = '34'
+1-	22-	13-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+1-	22-	13-	MySQLI Returned : 
+1-	22-	13-	Going to login
+1-	22-	14-	Going to start a new session
+1-	22-	14-	Cookies all set
+1-	22-	14-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+1-	22-	14-	MySQLI Returned : 
+1-	22-	14-	Going to execute : Select * from book WHERE book_id  = '34'
+1-	22-	26-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+1-	22-	26-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+1-	22-	26-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+1-	22-	26-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+1-	22-	59-	Going to execute : Select * from book WHERE category = 'Fiction'
+1-	22-	59-	Going to execute : Select * from book WHERE category = 'Adventure'
+1-	22-	59-	Going to execute : Select * from book WHERE category = 'Mysticism'
+1-	22-	59-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+1-	22-	59-	Going to execute : Select * from book WHERE category = 'Magic'
+1-	23-	3-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+1-	23-	3-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+1-	23-	3-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+1-	23-	4-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+1-	23-	7-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 10
+1-	23-	7-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 10 and status != NULL
+1-	23-	7-	Going to execute : Select * from book WHERE book_id  = '31'
+1-	23-	7-	Going to execute : Select * from book WHERE book_id  = '33'
+1-	23-	7-	Going to execute : Select * from book WHERE book_id  = '34'
+1-	23-	20-	Going to execute : SELECT * FROM book WHERE book_name = "My Book 4"
+1-	23-	20-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "29" 
+1-	23-	20-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 29 and comment != 'NULL'
+1-	23-	24-	Going to execute : SELECT * FROM book WHERE book_name = "My Book 3"
+1-	23-	24-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "28" 
+1-	23-	24-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 28 and comment != 'NULL'
+1-	23-	25-	Going to execute from bookdisplay : Select * FROM users WHERE id = 3
+1-	23-	31-	Going to execute : SELECT * FROM book WHERE book_name = "My Book 2"
+1-	23-	31-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "27" 
+1-	23-	31-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 27 and comment != 'NULL'
+1-	24-	15-	Values Received : Complete Reading27 
+1-	24-	16-	INSERT INTO user_books(user_id,book_id ,status) VALUES ('10','27 ','Complete Reading')
+1-	24-	16-	Rows affected :1
+1-	24-	20-	Going to execute : Select * from book WHERE category = 'Fiction'
+1-	24-	20-	Going to execute : Select * from book WHERE category = 'Adventure'
+1-	24-	20-	Going to execute : Select * from book WHERE category = 'Mysticism'
+1-	24-	20-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+1-	24-	20-	Going to execute : Select * from book WHERE category = 'Magic'
+1-	24-	25-	Going to execute : SELECT * FROM book WHERE book_name = "My Book 2"
+1-	24-	25-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "27" 
+1-	24-	25-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 27 and comment != 'NULL'
+1-	25-	38-	Going to execute : SELECT * FROM book WHERE book_name = "Great Giant Book of Magic"
+1-	25-	38-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "34" 
+1-	25-	39-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 34 and comment != 'NULL'
+1-	25-	39-	Going to execute from bookdisplay : Select * FROM users WHERE id = 10
+1-	25-	41-	Going to execute from profiledisplay : SELECT * FROM users WHERE id = 10
+1-	25-	41-	From profiledisplay :SELECT * FROM user_books WHERE user_books.user_id = 10 and status != NULL
+1-	25-	41-	Going to execute : Select * from book WHERE book_id  = '31'
+1-	25-	41-	Going to execute : Select * from book WHERE book_id  = '33'
+1-	25-	41-	Going to execute : Select * from book WHERE book_id  = '34'
+1-	33-	27-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+1-	33-	27-	MySQLI Returned : 
+1-	33-	27-	Going to execute : Select * from book WHERE book_id  = '27'
+1-	33-	27-	Going to execute : Select * from book WHERE book_id  = '34'
+12-	16-	33-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+12-	16-	33-	MySQLI Returned : 
+12-	16-	33-	Going to login
+12-	16-	33-	Going to start a new session
+12-	16-	33-	Cookies all set
+12-	16-	33-	Going to execute: SELECT * FROM users WHERE email = 'naveed@test.com'
+12-	16-	34-	MySQLI Returned : 
+12-	16-	34-	Going to execute : Select * from book WHERE book_id  = '27'
+12-	16-	34-	Going to execute : Select * from book WHERE book_id  = '34'
+12-	16-	41-	Going to execute : Select * from book WHERE category = 'Fiction'
+12-	16-	41-	Going to execute : Select * from book WHERE category = 'Adventure'
+12-	16-	41-	Going to execute : Select * from book WHERE category = 'Mysticism'
+12-	16-	41-	Going to execute : Select * from book WHERE category = 'Sci Fi'
+12-	16-	41-	Going to execute : Select * from book WHERE category = 'Magic'
+12-	16-	48-	Going to execute : SELECT * FROM book WHERE book_name = "Test Book 3"
+12-	16-	48-	Going to execute ffrom book display: SELECT * FROM user_books WHERE book_id = "23" 
+12-	16-	48-	Going to execute from bookdisplaySelect * FROM user_books WHERE book_id = 23 and comment != 'NULL'

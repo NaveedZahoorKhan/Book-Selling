@@ -1,0 +1,126 @@
+12-	53-	18-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+12-	53-	36-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+12-	54-	25-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+12-	55-	35-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+12-	56-	39-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+1-	0-	36-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+1-	0-	58-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+1-	3-	21-	Going to execute : SELECT * from book_reader.admin where email = "$email" and password = "$password"
+1-	12-	46-	Going to execute : SELECT * from admin where email = "\$email\" and password = "\$password\"
+1-	15-	10-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+1-	15-	22-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+1-	17-	1-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+1-	18-	6-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+1-	22-	12-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+10-	5-	42-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+10-	6-	18-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+10-	6-	29-	Going to execute : SELECT * from admin where email = " admin@test.com" and password = " Adminisking" 
+10-	11-	7-	Going to execute : SELECT * FROM `admin` WHERE email = \'admin@test.com\' AND password = \'Adminisking\'
+10-	11-	35-	Going to execute : SELECT * FROM `admin` WHERE email =admin@test.com AND password = Adminisking
+10-	11-	56-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	11-	56-	MySQLi rows are greater than 0
+10-	13-	9-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	13-	9-	MySQLi rows are greater than 0 :
+10-	14-	36-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	14-	36-	MySQLi rows are greater than 0 
+10-	16-	5-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	16-	5-	MySQLi rows are greater than 0 
+10-	18-	0-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	18-	0-	MySQLi rows are greater than 0 
+10-	18-	35-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	18-	35-	MySQLi rows are greater than 0 
+10-	19-	56-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	19-	56-	MySQLi rows are greater than 0 
+10-	20-	11-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	20-	11-	MySQLi rows are greater than 0 
+10-	24-	30-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	24-	30-	MySQLi rows are greater than 0 
+10-	26-	23-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	26-	24-	MySQLi rows are greater than 0 
+12-	29-	28-	Going to execute from remove book : DELETE FROM `book` WHERE book_name = \'My Book 1\'
+12-	29-	28-	My SQLi effected Rows are : -1
+12-	29-	28-	Unable to delete book
+12-	29-	57-	Going to execute from remove book : DELETE FROM `book` WHERE book_name = 'My Book 1'
+12-	29-	57-	My SQLi effected Rows are : 1
+12-	29-	57-	Book Deletion Complete
+1-	28-	27-	Going to execute from remove book : DELETE FROM `book` WHERE book_name = 'Great Blue Book'
+1-	28-	27-	My SQLi effected Rows are : 1
+1-	28-	27-	Book Deletion Complete
+1-	28-	32-	Going to execute from remove book : DELETE FROM `book` WHERE book_name = 'Great Blue Book'
+1-	28-	32-	My SQLi effected Rows are : 0
+1-	28-	32-	Unable to delete book
+1-	34-	5-	Going to execute from editbook SELECT * FROM book where book_name = ''
+1-	34-	12-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	34-	49-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	36-	17-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	36-	34-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	36-	45-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	36-	55-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	37-	7-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	37-	21-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	37-	44-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	37-	57-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	38-	5-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	38-	13-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	38-	30-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	38-	37-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	38-	55-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	39-	21-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	39-	41-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	39-	52-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	40-	9-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	40-	14-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	40-	22-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	40-	31-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	40-	45-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	41-	5-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	43-	1-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	43-	18-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+1-	44-	47-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Book'
+10-	19-	56-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+10-	19-	56-	MySQLi rows are greater than 0 
+10-	20-	10-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Red Book'
+10-	21-	52-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Red Book'
+10-	22-	13-	Going to execute : UPDATE book SET name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012', front_page = '' WHERE book_id = '<br />
+<b>Notice</b>:  Use of undefined constant row - assumed 'row' in <b>C:\xampp\htdocs\BookReader\book_admin\editBook.php</b> on line <b>35</b><br />
+<br />
+<b>Warning</b>:  Illegal string offset 'id' in <b>C:\xampp\htdocs\BookReader\book_admin\editBook.php</b> on line <b>35</b><br />
+r'
+10-	22-	13-	Rows affected : -1
+10-	22-	35-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Red Book'
+10-	25-	1-	Going to execute : UPDATE book SET name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012' WHERE book_id = '<br />
+<b>Notice</b>:  Use of undefined constant row - assumed 'row' in <b>C:\xampp\htdocs\BookReader\book_admin\editBook.php</b> on line <b>35</b><br />
+<br />
+<b>Warning</b>:  Illegal string offset 'id' in <b>C:\xampp\htdocs\BookReader\book_admin\editBook.php</b> on line <b>35</b><br />
+r'
+10-	25-	1-	Rows affected : -1
+10-	31-	58-	Going to execute : UPDATE book SET name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012' WHERE book_id = '<br />
+<b>Notice</b>:  Use of undefined constant row - assumed 'row' in <b>C:\xampp\htdocs\BookReader\book_admin\editBook.php</b> on line <b>35</b><br />
+<br />
+<b>Warning</b>:  Illegal string offset 'id' in <b>C:\xampp\htdocs\BookReader\book_admin\editBook.php</b> on line <b>35</b><br />
+r'
+10-	31-	58-	Rows affected : -1
+10-	32-	25-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Red Book'
+10-	32-	27-	Going to execute : UPDATE book SET name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012' WHERE book_id = '<br />
+<b>Notice</b>:  Undefined index: id in <b>C:\xampp\htdocs\BookReader\book_admin\editBook.php</b> on line <b>35</b><br />
+'
+10-	32-	27-	Rows affected : -1
+10-	34-	42-	Going to execute from editbook SELECT * FROM book where book_name = 'Great Red Red Book'
+10-	34-	45-	Going to execute : UPDATE book SET name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012' WHERE book_id = '31'
+10-	34-	45-	Rows affected : -1
+10-	36-	2-	Going to execute : UPDATE book SET name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012' WHERE book_id = '31'
+10-	36-	2-	Rows affected : -1
+10-	36-	25-	Going to execute : UPDATE book SET name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012' WHERE book_id = '31'
+10-	36-	25-	Rows affected : -1
+10-	55-	10-	Going to execute : UPDATE book SET book_name = 'Great Red Red Book' , book_author = 'Test Author 4' , book_publish = '2012' WHERE book_id = '31'
+10-	55-	10-	Rows affected : 1
+10-	55-	10-	Book Editited Success
+4-	50-	9-	Going to execute : SELECT * FROM `admin` WHERE email = 'admin@test.com' AND password = 'Adminisking'
+4-	50-	9-	MySQLi rows are greater than 0 
+5-	32-	42-	Row affected in deletion : 1
+5-	33-	3-	Row affected in deletion : 0
+5-	33-	16-	Row affected in deletion : 1
+5-	33-	47-	Row affected in deletion : 0
+5-	34-	1-	Row affected in deletion : 1
+5-	34-	35-	Row affected in deletion : 0
+5-	34-	46-	Row affected in deletion : 0
